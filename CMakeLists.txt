@@ -48,4 +48,4 @@ elseif ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang")
 endif() 
 
 
-add_executable(demo "k8063.c")
+add_executable(demo "k8063.cpp" "com.c" "com.h")
